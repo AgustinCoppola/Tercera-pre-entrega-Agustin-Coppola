@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title_head %}
+<title>HARDGROOVE - Inicio</title>
+{% endblock title_head%}
+
+{% block h1_header %}
+Bienvenidos a HARDGROOVE
+{% endblock h1_header %}
+
+{% block contenido %}
+<p>
+    Si no está viva, no es Música. Únete para llevar tu estilo al más alto nivel.
+</p>
+{% endblock contenido %}
+
+{% block h2 %}
+Si no está viva, no es Música. Únete para llevar tu estilo al más alto nivel.
+{% endblock h2 %}
+
+{% block started %}
+<a class="btn btn-primary" href={% url 'inicio:crear_djuser' %}>Get Started</a>
+{% endblock started %}
